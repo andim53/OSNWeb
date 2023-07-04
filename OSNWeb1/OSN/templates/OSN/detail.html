@@ -1,6 +1,6 @@
 {% extends 'OSN/base.html' %}
 
-{% load blog_extras %}
+{% load soal_extras %}
 
 {% block content %}
     <div class="box">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="content">
-            {{ post.body|convert_markdown|safe }}
+            {{ post.body|convert_markdown|safe}}
         </div>
     </div>
 {% endblock %}
